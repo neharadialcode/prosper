@@ -34,3 +34,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.box_shadow {
+  box-shadow: 0px 0px 33px 7px rgba(242, 165, 0, 1);
+}
