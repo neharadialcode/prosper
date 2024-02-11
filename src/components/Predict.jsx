@@ -4,7 +4,7 @@ import gif from "../assets/img/gif.svg";
 
 const Predict = () => {
   return (
-    <div className="px-5 sm:py-20 py-10">
+    <div className="px-5 sm:py-20 py-10" id="video">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5 ">
         <div className="max-w-[760px] mx-auto">
           <iframe

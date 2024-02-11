@@ -195,3 +195,30 @@ export const advantageData = [
     title: "Liquidity programs with stablecoin income",
   },
 ];
+
+export const headerLink = [
+  {
+    link: "Instruction",
+    url: "#Instruction",
+  },
+  {
+    link: "Advantages",
+    url: "#Advantages",
+  },
+  {
+    link: "Architecture",
+    url: "#Architecture",
+  },
+  {
+    link: "Prediction insurance",
+    url: "#Prediction_insurance",
+  },
+  {
+    link: "Custom pools",
+    url: "#Custom_pools",
+  },
+  {
+    link: "What's next",
+    url: "#What_next",
+  },
+];
