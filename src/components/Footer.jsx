@@ -20,9 +20,11 @@ const Footer = () => {
           <TelegramIcon />
         </a>
       </div>
-      <div className="flex justify-between items-center">
-        <div className="whitespace-nowrap">© {year} Prosper.so</div>
-        <ul className="flex px-[10%] flex-wrap justify-center ">
+      <div className="flex md:flex-row flex-col justify-between items-center">
+        <div className="whitespace-nowrap order-2 md:order-1 py-2 md:py-0">
+          © {year} Prosper.so
+        </div>
+        <ul className="flex md:px-[10%] flex-wrap justify-center order-1 md:order-2">
           {footerLinks.map((obj, i) => (
             <li key={i} className="px-4 whitespace-nowrap text-center lg:py-1">
               <a
@@ -34,7 +36,9 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-        <div className="whitespace-nowrap cursor-pointer">Back to top</div>
+        <div className="whitespace-nowrap cursor-pointer order-3 md:order-3">
+          Back to top
+        </div>
       </div>
     </div>
   );
