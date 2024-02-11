@@ -7,7 +7,7 @@ const Prediction = () => {
   return (
     <div className="px-5 sm:py-20 py-10">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5 ">
-        <h2 className="xl:text-[56px] text-[40px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
+        <h2 className="xl:text-[56px] sm:text-[40px] text-[35px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
           Prediction insurance
         </h2>
         <div className="lg:flex pt-5 ">

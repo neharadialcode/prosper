@@ -5,7 +5,7 @@ const OurBackers = () => {
   return (
     <div className="px-5">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5">
-        <h2 className="xl:text-[56px] text-[40px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
+        <h2 className="xl:text-[56px] sm:text-[40px] text-[35px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
           Our backers & partners
         </h2>
         <div className="flex flex-wrap xl:gap-10 sm:gap-7 gap-3 my-10 pb-10 justify-center">
