@@ -8,11 +8,11 @@ const Predict = () => {
       <div className="container 2xl:max-w-[1320px] mx-auto py-5 ">
         <div className="max-w-[760px] mx-auto">
           <iframe
-            className="md:min-h-[450px] min-h-[200px] sm:min-h-[350px]"
+            className="md:min-h-[450px] min-h-[200px] sm:min-h-[350px] sm:h-[350px]"
             id="youtubeiframe300644794"
             class="t347__iframe"
             width="100%"
-            height="100%"
+            height="350px"
             src="https://www.youtube.com/embed/H86OGVc9Pj8?autoplay=1&amp;rel=0"
             frameborder="0"
             allowfullscreen=""
