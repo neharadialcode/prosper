@@ -71,7 +71,11 @@ const Header = () => {
       >
         <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile h-full">
           {headerLink.map((obj, i) => (
-            <li key={i} onClick={() => setIsOpen(!isOpen)} className="py-3">
+            <li
+              key={i}
+              onClick={() => setIsOpen(!isOpen)}
+              className="py-[6px] sm:py-[10px]"
+            >
               <a
                 href={obj.url}
                 className=" relative after:content-['']  after:w-0 after:h-[1px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-white  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md sm:text-[5vw] text-[8vw]"
