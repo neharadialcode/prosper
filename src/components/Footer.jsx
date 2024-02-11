@@ -1,21 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { footerLinks } from "./Helper";
-import { TelegramIcon, TwitterIcon } from "./Icons";
+import { TelegramIcon, TopArrow, TwitterIcon } from "./Icons";
 
 const Footer = () => {
   const year = new Date().getFullYear();
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
-    <div className="px-10 bg-[#00041a] py-5">
+    <div className="sm:px-10 px-5 bg-[#00041a] py-5">
       <div className="flex justify-center py-5 mb-5">
         <a
           className="px-2 inline-block hover:scale-[1.1] transition-all duration-300 ease-in-out"
-          href=""
+          href="https://twitter.com/Prosperpredict"
+          target="_blank"
         >
           <TwitterIcon />
         </a>
         <a
+          target="_blank"
           className="px-2 inline-block hover:scale-[1.1] transition-all duration-300 ease-in-out"
-          href=""
+          href="https://t.me/prosperan"
         >
           <TelegramIcon />
         </a>
@@ -36,8 +42,12 @@ const Footer = () => {
             </li>
           ))}
         </ul>
-        <div className="whitespace-nowrap cursor-pointer order-3 md:order-3">
-          Back to top
+        <div
+          className="whitespace-nowrap cursor-pointer order-3 md:order-3 flex items-center"
+          onClick={scrollTop}
+        >
+          <p className="pe-3 text-[14px] font-bold">Back to top </p>
+          <TopArrow />
         </div>
       </div>
     </div>

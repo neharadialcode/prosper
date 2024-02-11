@@ -5,7 +5,7 @@ import prediction from "../assets/img/prediction.png";
 
 const Prediction = () => {
   return (
-    <div className="px-5 sm:py-20 py-10">
+    <div className="px-5 sm:py-20 py-10" id="prediction">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5 ">
         <h2 className="xl:text-[56px] sm:text-[40px] text-[35px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
           Prediction insurance

@@ -40,9 +40,14 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <button className="bg-[#5900f7] py-[10px] sm:px-7 px-3 text-[14px] rounded-md font-[500]">
+          <a
+            target="
+          _blank"
+            href="https://social.prosper.so/"
+            className="bg-[#5900f7] py-[10px] sm:px-7 px-3 text-[14px] rounded-md font-[500]"
+          >
             Predict now
-          </button>
+          </a>
 
           <div className="flex lg:hidden">
             <button
@@ -52,7 +57,6 @@ const Header = () => {
               aria-controls="mobile-menu"
               aria-expanded={isOpen ? "opacity-1" : "opacity-0"}
             >
-              <span className="sr-only">Open main menu</span>
               {!isOpen ? <Toggle /> : <CrossIcon />}
             </button>
           </div>

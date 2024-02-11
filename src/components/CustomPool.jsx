@@ -1,7 +1,7 @@
 import React from "react";
 
 const CustomPool = () => {
-  return <div>CustomPool</div>;
+  return <div id="custom_pool">CustomPool</div>;
 };
 
 export default CustomPool;

@@ -28,51 +28,51 @@ import {
 export const footerLinks = [
   {
     link: "Instruction",
-    url: "#Instruction",
+    url: "#video",
   },
   {
     link: "Advantages",
-    url: "#Advantages",
+    url: "#advantages",
   },
   {
     link: "Architecture",
-    url: "#Architecture",
+    url: "#architecture",
   },
   {
     link: "Liquidity program",
-    url: "#Liquidity program",
+    url: "#liquidity",
   },
   {
     link: "Token utility",
-    url: "#Token utility",
+    url: "#token",
   },
   {
     link: "Prediction insurance",
-    url: "#Prediction insurance",
+    url: "#prediction",
   },
   {
     link: "Custom pools",
-    url: "#Custom pools",
+    url: "#custom_pools",
   },
   {
     link: "What's next",
-    url: "#What's next",
+    url: "#backers",
   },
   {
     link: "Backers & partners",
-    url: "#Backers & partners",
+    url: "#backers",
   },
   {
     link: "Medium",
-    url: "#Medium",
+    url: "#medium",
   },
   {
     link: "Prosper's rules",
-    url: "#Prosper's rules",
+    url: "#prosper_rules",
   },
   {
     link: "How to start",
-    url: "#How to start",
+    url: "#how_to_start",
   },
 ];
 
@@ -199,26 +199,26 @@ export const advantageData = [
 export const headerLink = [
   {
     link: "Instruction",
-    url: "#Instruction",
+    url: "#video",
   },
   {
     link: "Advantages",
-    url: "#Advantages",
+    url: "#advantages",
   },
   {
     link: "Architecture",
-    url: "#Architecture",
+    url: "#architecture",
   },
   {
     link: "Prediction insurance",
-    url: "#Prediction_insurance",
+    url: "#prediction",
   },
   {
     link: "Custom pools",
-    url: "#Custom_pools",
+    url: "#custom_pools",
   },
   {
     link: "What's next",
-    url: "#What_next",
+    url: "#backers",
   },
 ];

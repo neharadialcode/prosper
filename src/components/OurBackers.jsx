@@ -3,7 +3,7 @@ import { partnersData } from "./Helper";
 
 const OurBackers = () => {
   return (
-    <div className="px-5">
+    <div className="px-5" id="backers">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5">
         <h2 className="xl:text-[56px] sm:text-[40px] text-[35px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
           Our backers & partners

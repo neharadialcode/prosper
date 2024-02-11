@@ -3,7 +3,7 @@ import { advantageData } from "./Helper";
 
 const Advantages = () => {
   return (
-    <div className="px-5 bg_line py-20">
+    <div className="px-5 bg_line py-20" id="advantages">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5">
         <h2 className="xl:text-[56px] sm:text-[40px] text-[35px] font-[600] text-center md:pb-10 sm:pb-5 leading-[100%]">
           Our advantages

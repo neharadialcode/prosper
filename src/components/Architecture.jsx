@@ -1,7 +1,7 @@
 import React from "react";
 
 const Architecture = () => {
-  return <div>Architecture</div>;
+  return <div id="architecture">Architecture</div>;
 };
 
 export default Architecture;
