@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="whitespace-nowrap">© {year} Prosper.so</div>
         <ul className="flex px-[10%] flex-wrap justify-center ">
           {footerLinks.map((obj, i) => (
-            <li key={i} className="px-4 whitespace-nowrap text-center py-1">
+            <li key={i} className="px-4 whitespace-nowrap text-center lg:py-1">
               <a
                 className="text-center hover:opacity-70 text-[14px]"
                 href={obj.url}
