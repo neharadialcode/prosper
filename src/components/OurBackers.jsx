@@ -10,7 +10,10 @@ const OurBackers = () => {
         </h2>
         <div className="flex flex-wrap xl:gap-10 sm:gap-7 gap-3 my-10 pb-10 justify-center">
           {partnersData.map((obj, i) => (
-            <div className="sm:w-[180px] w-[140px] h-[140px] sm:h-[180px] bg-white rounded-[16px] flex flex-col justify-center items-center sm:p-4 p-3 cursor-pointer hover:translate-y-[-5px] transition-all duration-300 ease-in-out">
+            <div
+              key={i}
+              className="sm:w-[180px] w-[140px] h-[140px] sm:h-[180px] bg-white rounded-[16px] flex flex-col justify-center items-center sm:p-4 p-3 cursor-pointer hover:translate-y-[-5px] transition-all duration-300 ease-in-out"
+            >
               <img
                 width={obj.width}
                 height={obj.height}

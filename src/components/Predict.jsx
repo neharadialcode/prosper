@@ -10,12 +10,12 @@ const Predict = () => {
           <iframe
             className="md:min-h-[450px] min-h-[200px] sm:min-h-[350px] sm:h-[350px]"
             id="youtubeiframe300644794"
-            class="t347__iframe"
+            className="t347__iframe"
             width="100%"
             height="350px"
             src="https://www.youtube.com/embed/H86OGVc9Pj8?autoplay=1&amp;rel=0"
-            frameborder="0"
-            allowfullscreen=""
+            frameBorder="0"
+            allowFullScreen=""
             allow="autoplay"
           ></iframe>
         </div>

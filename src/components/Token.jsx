@@ -10,7 +10,10 @@ const Token = () => {
         </h2>
         <div className="flex flex-wrap xl:gap-10 sm:gap-7 gap-3 my-10 pb-10 justify-center max-w-[900px] mx-auto">
           {tokenData.map((obj, i) => (
-            <div className="w-[200px] sm:h-[200px] border-[1.5px] border-[#FFDD00] rounded-[16px] flex flex-col justify-between items-center sm:px-4 px-3 sm:py-8 py-5 cursor-pointer hover:translate-y-[-5px] transition-all duration-300 ease-in-out">
+            <div
+              key={i}
+              className="w-[200px] sm:h-[200px] border-[1.5px] border-[#FFDD00] rounded-[16px] flex flex-col justify-between items-center sm:px-4 px-3 sm:py-8 py-5 cursor-pointer hover:translate-y-[-5px] transition-all duration-300 ease-in-out"
+            >
               <span>{obj.icon}</span>
               <p className="text-center pt-5 sm:text-[20px] text-[18px] leading-[120%]">
                 {obj.title}
