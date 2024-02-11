@@ -11,6 +11,13 @@ import logo10 from "../assets/img/10.png";
 import logo11 from "../assets/img/11.png";
 import logo12 from "../assets/img/12.png";
 import {
+  AdvantageIcon1,
+  AdvantageIcon2,
+  AdvantageIcon3,
+  AdvantageIcon4,
+  AdvantageIcon5,
+  AdvantageIcon6,
+  AdvantageIcon7,
   TokenIcon1,
   TokenIcon2,
   TokenIcon3,
@@ -156,5 +163,35 @@ export const tokenData = [
   {
     icon: <TokenIcon6 />,
     title: "Liquidity incentives",
+  },
+];
+export const advantageData = [
+  {
+    icon: <AdvantageIcon1 />,
+    title: "Retail-oriented",
+  },
+  {
+    icon: <AdvantageIcon2 />,
+    title: "Custom pools owned by users",
+  },
+  {
+    icon: <AdvantageIcon3 />,
+    title: "Unique prediction insurance system",
+  },
+  {
+    icon: <AdvantageIcon4 />,
+    title: "Fiat integration",
+  },
+  {
+    icon: <AdvantageIcon5 />,
+    title: "Crosschain support",
+  },
+  {
+    icon: <AdvantageIcon6 />,
+    title: "Simple concept",
+  },
+  {
+    icon: <AdvantageIcon7 />,
+    title: "Liquidity programs with stablecoin income",
   },
 ];
