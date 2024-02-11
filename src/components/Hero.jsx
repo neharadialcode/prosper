@@ -4,7 +4,7 @@ import scroll from "../assets/img/scroll.svg";
 
 const Hero = () => {
   return (
-    <div className="px-5 sm:py-20 py-10 h-screen bg_hero">
+    <div className="px-5 sm:py-20 py-10 md:h-screen bg_hero">
       <div className="container 2xl:max-w-[1320px] mx-auto py-5 md:h-auto h-[70vh] flex flex-col justify-center ">
         <div className="md:flex max-w-[900px] mx-auto pt-20">
           <div className="md:w-1/2 md:border-r md:h-[60vh] md:pe-10 ">
