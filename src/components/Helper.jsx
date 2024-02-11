@@ -10,6 +10,14 @@ import logo9 from "../assets/img/9.png";
 import logo10 from "../assets/img/10.png";
 import logo11 from "../assets/img/11.png";
 import logo12 from "../assets/img/12.png";
+import {
+  TokenIcon1,
+  TokenIcon2,
+  TokenIcon3,
+  TokenIcon4,
+  TokenIcon5,
+  TokenIcon6,
+} from "./Icons";
 export const footerLinks = [
   {
     link: "Instruction",
@@ -121,5 +129,32 @@ export const partnersData = [
     logo: logo12,
     width: "120px",
     height: "34px",
+  },
+];
+
+export const tokenData = [
+  {
+    icon: <TokenIcon1 />,
+    title: "Lower commission rates",
+  },
+  {
+    icon: <TokenIcon2 />,
+    title: "Prediction insurance",
+  },
+  {
+    icon: <TokenIcon3 />,
+    title: "Dao governance",
+  },
+  {
+    icon: <TokenIcon4 />,
+    title: "Custom pool creation",
+  },
+  {
+    icon: <TokenIcon5 />,
+    title: "Prediction leverage",
+  },
+  {
+    icon: <TokenIcon6 />,
+    title: "Liquidity incentives",
   },
 ];

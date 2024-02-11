@@ -5,22 +5,32 @@
 @font-face {
   font-family: futura;
   src: url("./assets/fonts/FuturaPTBook.otf");
+  font-weight: 400;
 }
 @font-face {
   font-family: futura;
   src: url("./assets/fonts/FuturaPTBold.otf");
+  font-weight: 700;
 }
 @font-face {
   font-family: futura;
   src: url("./assets/fonts/FuturaPTMedium.otf");
+  font-weight: 500;
 }
 @font-face {
   font-family: futura;
   src: url("./assets/fonts/FuturaPTHeavy.otf");
+  font-weight: 600;
 }
 
 body {
   background-color: #000523;
   color: white;
   font-family: futura;
+  font-weight: 400;
+}
+.bg_line {
+  background-image: url("./assets/img/bg-line-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
