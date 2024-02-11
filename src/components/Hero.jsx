@@ -15,7 +15,7 @@ const Hero = () => {
             />
           </div>
           <div className="md:w-1/2 lg:ps-20 md:ps-10 md:pt-20 sm:pt-10 pt-5">
-            <p className="text-[20px] sm:text-[24px] text-center">
+            <p className="text-[20px] sm:text-[24px] text-center sm:text-start">
               World's first prediction market with the on-chain liquidity
               aggregation
             </p>
