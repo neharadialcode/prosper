@@ -16,7 +16,7 @@ const Hero = () => {
             />
           </div>
           <div className="md:w-1/2 lg:ps-20 md:ps-10 md:pt-20 sm:pt-10 pt-5">
-            <p className="text-[20px] sm:text-[24px] text-center sm:text-start lg:w-[400px]">
+            <div className="text-[20px] sm:text-[24px] text-center sm:text-start lg:w-[400px]">
               <Typewriter
                 options={{
                   strings:
@@ -25,7 +25,7 @@ const Hero = () => {
                   loop: true,
                 }}
               />
-            </p>
+            </div>
           </div>
         </div>
         <div className="text-center md:pt-5 pt-8">
