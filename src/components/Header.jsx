@@ -16,7 +16,7 @@ const Header = () => {
     };
   }, [isOpen]);
   return (
-    <nav className="fixed w-full bg-[#00000044]">
+    <nav className="fixed w-full bg-[#00000044] z-10">
       <div className=" mx-auto sm:px-10 px-5">
         <div className="flex items-center justify-between py-4 ">
           <div className=" block">
