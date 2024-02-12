@@ -52,3 +52,15 @@ body {
     background-size: 120%;
   }
 }
+
+.scroll_animation {
+  animation: scroll 0.7s ease-in-out infinite alternate-reverse;
+}
+@keyframes scroll {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}

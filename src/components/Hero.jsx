@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/img/logo_PROSPER.svg";
 import scroll from "../assets/img/scroll.svg";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -15,16 +16,22 @@ const Hero = () => {
             />
           </div>
           <div className="md:w-1/2 lg:ps-20 md:ps-10 md:pt-20 sm:pt-10 pt-5">
-            <p className="text-[20px] sm:text-[24px] text-center sm:text-start">
-              World's first prediction market with the on-chain liquidity
-              aggregation
+            <p className="text-[20px] sm:text-[24px] text-center sm:text-start lg:w-[400px]">
+              <Typewriter
+                options={{
+                  strings:
+                    "   World's first prediction market with the on-chain liquidity aggregation",
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </p>
           </div>
         </div>
         <div className="text-center md:pt-5 pt-8">
           <a
             href="#video"
-            className="inline-block hover:translate-y-[5px] transition-all duration-300 ease-in-out"
+            className="inline-block hover:translate-y-[5px] transition-all duration-300 ease-in-out scroll_animation"
           >
             <img className="mx-auto" src={scroll} alt="scroll" />
           </a>
